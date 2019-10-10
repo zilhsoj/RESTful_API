@@ -27,7 +27,6 @@ def get_store(name)
     # iterate over stores
     # if match, return the store
     # if no match, return an error message
-
     for store in store:
         if store['name'] == name:
             return jsonify(store)
